@@ -5,6 +5,7 @@
 		<Authors>Vital7</Authors>
 		<Company>$(Authors)</Company>
 		<Copyright>Copyright © $(Company) 2020-$([System.DateTime]::UtcNow.Year)</Copyright>
+		<Nullable>enable</Nullable>
 		<PackageIcon/>
 		<PackageProjectUrl>https://github.com/$(Company)/$(MSBuildProjectName)</PackageProjectUrl>
 		<PackageReleaseNotes>$(PackageProjectUrl)/releases</PackageReleaseNotes>
