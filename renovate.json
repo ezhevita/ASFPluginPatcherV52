@@ -8,6 +8,6 @@
     "schedule:weekly"
   ],
   "git-submodules": {
-    "enabled": true
+    "enabled": false
   }
 }
