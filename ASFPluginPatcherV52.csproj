@@ -1,10 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
+	<PropertyGroup>
+		<Description>ASF V5.2.1.0+ plugin patcher.</Description>
+		<Version>1.0.0.0</Version>
+	</PropertyGroup>
+
 	<ItemGroup>
 		<PackageReference Include="JetBrains.Annotations" IncludeAssets="compile" />
 		<PackageReference Include="Mono.Cecil" />
 		<PackageReference Include="System.Composition.AttributedModel" IncludeAssets="compile" />
 		<ProjectReference Include="..\..\ArchiSteamFarm\ArchiSteamFarm\ArchiSteamFarm.csproj" Private="false" ExcludeAssets="all" />
 	</ItemGroup>
-	
+
 </Project>
