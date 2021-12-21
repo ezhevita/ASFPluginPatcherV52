@@ -1,18 +1,12 @@
 <Project>
 
+	<Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../ArchiSteamFarm/'))" />
+
 	<PropertyGroup>
-		<ApplicationIcon/>
-		<Authors>Vital7</Authors>
-		<Company>$(Authors)</Company>
-		<Copyright>Copyright © $(Company) 2020-$([System.DateTime]::UtcNow.Year)</Copyright>
-		<Nullable>enable</Nullable>
-		<PackageIcon/>
-		<PackageProjectUrl>https://github.com/$(Company)/$(MSBuildProjectName)</PackageProjectUrl>
-		<PackageReleaseNotes>$(PackageProjectUrl)/releases</PackageReleaseNotes>
-		<PublicSign>false</PublicSign>
-		<OutputType>Library</OutputType>
-		<RepositoryUrl>$(PackageProjectUrl).git</RepositoryUrl>
-		<SignAssembly>false</SignAssembly>
+		<Description>ASF V5.2.1.0+ plugin patcher.</Description>
+		<Version>1.0.0.0</Version>
 	</PropertyGroup>
+
+	<Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))" />
 
 </Project>
