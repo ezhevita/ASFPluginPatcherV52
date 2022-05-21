@@ -44,8 +44,8 @@ public class PatcherPlugin : IPlugin
 		if (typeof(ASF).Assembly.GetName().Version < RequiredVersion)
 			return;
 
-		ASF.ArchiLogger.LogGenericInfo("ASF V5.2.1.0+ Plugin Patcher for old plugins, made by Vital7");
-		ASF.ArchiLogger.LogGenericInfo("Support & source code: https://github.com/Vital7/ASFPluginPatcherV52");
+		ASF.ArchiLogger.LogGenericInfo("ASF V5.2.1.0+ Plugin Patcher for old plugins, made by ezhevita");
+		ASF.ArchiLogger.LogGenericInfo("Support & source code: https://github.com/ezhevita/ASFPluginPatcherV52");
 		ASF.ArchiLogger.LogGenericInfo("Discovering plugins...");
 		var assemblies = PrivateMemberExtensions.LoadAssemblies();
 		var shouldRestart = false;
